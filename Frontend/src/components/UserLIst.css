@@ -1,0 +1,36 @@
+/* UserList.css */
+
+.container {
+    display: flex; /* Use flexbox to create a horizontal layout */
+    margin-left: 250px; /* Adjust according to your sidebar width */
+    flex-direction: column; /* Stack children vertically */
+}
+
+.table-responsive {
+    flex-grow: 1; /* Allow the table to take the remaining space */
+    background-color: #ffffff; /* Set a background color for better visibility */
+    border-radius: 8px; /* Add some rounding to corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    padding-left: 100px; /* Add padding for better content spacing */
+    margin-top: 10px; /* Space from the top */
+}
+
+/* Header styles */
+h2 {
+    text-align: center; /* Center align the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Adjust the table styles */
+.table {
+    border-collapse: collapse; /* Ensure borders collapse into single */
+}
+
+.table th, .table td {
+    padding: 15px; /* Add padding for table cells */
+}
+
+.table thead th {
+    background-color: #343a40; /* Dark background for table header */
+    color: #ffffff; /* White text for the header */
+}
